@@ -1,4 +1,4 @@
-# yazi-lsp-inf.yazi
+# yazi-lsp-info.yazi
 
 > Export Neovim LSP diagnostics to Yazi file manager
 
