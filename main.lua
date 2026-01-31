@@ -23,35 +23,6 @@ local function log(level, ...)
 end
 
 
--- local function setup(st, opts)
---
---     Linemode:children_add(function(self)
---         local url = tostring(self._file.url)
---         local spans = {}
---
---         -- Add the hardcoded warning icon for main.lua
---         local hardcoded_path = "/home/durelius/.config/yazi/plugins/lsp-linemode.yazi/main.lua"
---         if url == hardcoded_path then
---             local icon_fg = "red"      -- foreground color
---             local icon_bg = "yellow"   -- background color
---             spans[#spans + 1] = ui.Span(" 🛑")
---             -- spans[#spans + 1] = ui.Span(" 🔶")
---
---         end
---
---         -- You can add additional spans here if needed
---
---         return ui.Line(spans)
---     end, 500)
--- end
-
-local function dump_table(t)
-  local parts = {}
-  for k, v in pairs(t) do
-    table.insert(parts, tostring(k) .. " = " .. tostring(v))
-  end
-  return "{ " .. table.concat(parts, ", ") .. " }"
-end
 local function table_size(t)
   local count = 0
   for _ in pairs(t) do count = count + 1 end

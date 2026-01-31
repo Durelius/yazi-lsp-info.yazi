@@ -12,7 +12,7 @@ The nvim side of the plugin: [yazi-lsp-info.nvim](https://github.com/Durelius/ya
 ## Installation
 
 ```sh
-ya pkg add durelius/yazi-lsp-info.yazi:yazi-lsp-info
+ya pkg add durelius/yazi-lsp-info
 ```
 
 
